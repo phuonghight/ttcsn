@@ -106,12 +106,12 @@ _(Recomened sử dụng git bash thay vì Command Promt hay Powershell để tr�
   - [x] Button `Danh mục sản phẩm` **=> component**
     - [ ] Dropdown sang bên phải, chứa các loại sản phẩm theo danh mục chính
 - [ ] UI trang đăng nhập, đăng ký **=> view**
-- [ ] UI trang chủ **=> View**
+- [x] UI trang chủ **=> View**
   - [x] Banner **=> Component**
   - [x] Danh sách các sản phẩm theo loại **=> component**
-- [ ] UI liên quan đến sản phẩm
+- [x] UI liên quan đến sản phẩm
   - [x] Product Card: hiển thị ở trang chủ, trang phân loại sản phẩm **=> component**
-  - [ ] Product Details: chi tiết về sản phẩm **=> component**
+  - [x] Product Details: chi tiết về sản phẩm **=> component**
     - [ ] Images slide
     - [x] Chi tiết: Tên, giá, ảnh, video, mô tả,...
   - [x] Gợi ý sản phẩm liên quan (gợi ý dựa trên các sản phẩm cùng loại) **=> component**
@@ -121,8 +121,12 @@ _(Recomened sử dụng git bash thay vì Command Promt hay Powershell để tr�
   - [x] small navbar
 - [ ] UI các trang danh mục sản phẩm (đồ cắm trại, năng lượng mặt trời, máy đo, phụ kiện ô tô): Mỗi trang sẽ có các loại sản phẩm của nó **=> view**
   - [ ] Category Card **=> component**
-- [ ] UI trang giỏ hàng
-- [ ] UI trang thanh toán
+- [x] UI trang giỏ hàng
+  - [x] Giỏ hàng mini trên headerheader
+  - [x] Trang giỏ hàng trước thanh toán
+- [x] UI trang thanh toán
+  - [x] Form điền thông tin
+- [x] UI trang thanh toán thành công, hiển thị hóa đơn
 
 #### 2. Function - Chức năng
 
@@ -136,17 +140,13 @@ _(Recomened sử dụng git bash thay vì Command Promt hay Powershell để tr�
 
 - [ ] Cart - giỏ hàng _(Sử dụng pinia store để lưu trữ tạm thời)_
   - [x] Thêm
-  - [ ] Xóa
-  - [ ] Số lượng
-  - [ ] Tổng tiền
+  - [x] Xóa
+  - [x] Số lượng
+  - [x] Tổng tiền
   - [ ] Lưu trữ trên local storage: khi reload website không bị reset lại giỏ hàng
-- [ ] Đăng nhập, đăng ký - Login, register _(Composable)_
+- [ ] Login, register - Đăng nhập, đăng ký _(Composable)_
   - [ ] Validate form
   - [ ] Kiểm tra, lưu trữ đã đăng nhập chưa: kiểm tra ở router là chính
-- [ ] Payment - thanh toán _(Composable)_
-  - [ ] Điền thông tin
-  - [ ] Fake đặt hàng thành công
-- [ ] Login, register - Đăng nhập, đăng ký _(Composable)_
 - [ ] Filter - Lọc _(Composable)_
   - [ ] latest
   - [ ] most popular
